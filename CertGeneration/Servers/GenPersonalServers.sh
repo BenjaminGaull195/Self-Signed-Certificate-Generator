@@ -1,11 +1,10 @@
 #!/bin/bash
 
-for var in "$@"
-do
-    echo "$var"
-done
-
-echo $#
+if [ $# -eq 0 ]
+    then 
+        echo "pass arguments [server name] [ip] as a repeating pattern"
+        exit 1
+fi
 
 while test ${#} -gt 0
 do
