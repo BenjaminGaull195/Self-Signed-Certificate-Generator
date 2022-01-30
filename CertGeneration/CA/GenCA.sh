@@ -19,6 +19,8 @@ openssl x509 -req -in $CA_DIR/ca.csr -text -days 3650 \
   -extfile /etc/ssl/openssl.cnf -extensions v3_ca \
   -signkey $CA_DIR/ca.key -sha256 -out $CA_DIR/ca.crt
 
+openssl pkcs -export -i $CA_DIR/ca.crt -inkey $CA_DIR/ca.key -out $CA_DIR/ca.pfx
+
 
 echo "Printing output of ca.csr to ca-csr-debug.txt for debug"
 openssl req -in $CA_DIR/ca.csr -text -noout > $CA_DEBUG_DIR/ca-csr-debug.txt
@@ -35,6 +37,7 @@ openssl x509 -req -sha256 -in $INTERMEDIATE_DIR/intermediate.csr -text -days 365
   -CA $CA_DIR/ca.crt -CAkey $CA_DIR/ca.key -CAcreateserial \
    -out $INTERMEDIATE_DIR/intermediate.crt
 
+openssl pkcs -export -i $INTERMEDIATE_DIR/intermediate.crt -inkey $INTERMEDIATE_DIR/intermediate.key -out $INTERMEDIATE_DIR/intermediate.pfx
 
 echo "Printing output of intermediate.csr to intermediate-csr-debug.txt for debug"
 openssl req -in $INTERMEDIATE_DIR/intermediate.csr -text -noout > $INTERMEDIATE_DEBUG_DIR/intermediate-csr-debug.txt
