@@ -1,0 +1,10 @@
+[req]
+prompt = no
+default_md = sha256
+distinguished_name = req_distinguished_name
+
+[req_distinguished_name]
+CN = intermediate.gaulldevelopment.local
+C = US
+ST = Washington
+O = GaullDevelopment
