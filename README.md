@@ -28,8 +28,10 @@ ______________________
 To create a self-signed certificate (after CA has been created):
 ```
 cd CertGeneration/Servers
-sh GenServerCert.sh [Server Name] [Server IP]
+sh GenServerCert.sh [Server Name] [Server IP] ...
 ```
 Replace [Server Name] with the name of the server. this is typically the first portion of a hostname url (e.i. www is one example)
 
 Replace [Server IP] with the static IPv4 address associated with the server as assigned by the DHCP service.
+
+The [Server Name] [Server IP] pattern can be repeated to generate certificates for multiple servers with a single call
