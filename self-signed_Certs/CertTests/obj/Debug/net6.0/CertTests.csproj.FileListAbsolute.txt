@@ -1,0 +1,15 @@
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/CertTests
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/CertTests.deps.json
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/CertTests.runtimeconfig.json
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/CertTests.dll
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/ref/CertTests.dll
+/home/pi/self-signed_Certs/CertTests/bin/Debug/net6.0/CertTests.pdb
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.csproj.AssemblyReference.cache
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.GeneratedMSBuildEditorConfig.editorconfig
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.AssemblyInfoInputs.cache
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.AssemblyInfo.cs
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.csproj.CoreCompileInputs.cache
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.dll
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/ref/CertTests.dll
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.pdb
+/home/pi/self-signed_Certs/CertTests/obj/Debug/net6.0/CertTests.genruntimeconfig.cache
